@@ -1,0 +1,163 @@
+body{
+    font-family: 'Cuprum', sans-serif;
+}
+#title{
+        width: auto;
+        background-color: #ff4c28;
+        color: #fff;
+}
+h1{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0  18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    margin-left: 3px;
+    font-style: bold;
+}
+.col-lg-6 h1{
+    
+}
+.main-image{
+    position:absolute;
+    right: 20%;
+    margin-top: 5px;
+    border-radius: 5%;
+    width: 320px;
+    transform: rotate(20deg);
+}
+.btn-download{
+    margin: 8% 3% 5% 0;
+}
+/* |   feature-section */
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-row{
+    padding: 3% 5%;
+    text-align: center;
+}
+.h3-in-features{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.5rem;
+}
+.fa-solid{
+    color: #ff4c28;
+    margin:4px;
+}
+.fa-solid:hover{
+    color: rgb(223, 21, 209);
+}
+.fea-p{
+    color: grey;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Testimonial section */
+#testimonials{
+    padding: 7% 15%;
+    background-color: #ff4c28;
+    text-align: center;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+    /* border: 2px solid rgb(223, 21, 209); */
+}
+.testemonial-image{
+    width: 20%;
+    margin: 20px;
+}
+
+/* press-section */
+#press{
+    margin: 3% 5%;
+}
+.press-image{
+    padding: 5%;
+
+}
+
+/* pricing-section */
+#pricing h2,#pricing p{
+    text-align: center;
+}
+.card-header{
+    background-color: #ff4c28;
+    color: beige;
+}
+.card{
+    text-align:center;
+    margin: 3%;
+    font-family: serif;
+    font-style: bold;
+}
+.card-column{
+
+}
+
+/* Call to action css code */
+#cta{
+    background-color: #ff4c28;
+    text-align: center;
+    padding: 3% 5%;
+}
+.btn-download-f{
+    margin: 3% 1%;
+}
+
+/* foooter-section */
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+    font-style: normal;
+}
+#footer p{
+    color: darkgray;
+}
+#footer a{
+    text-decoration: none;
+}
+.social-icon{
+    margin: 1% 1%;
+    font-size: 1.5rem;
+}
+.fa-twitter{
+}
+
+.fa-instagram{
+    color: #ff4c28;
+}
+.social-icon:hover{
+    color: #ff4c28;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .main-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #press{
+        text-align: center;
+    }
+}
